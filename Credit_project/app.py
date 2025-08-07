@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 
 app = Flask(__name__)
-model = joblib.load('credit_model.lb')  # Replace with your trained model
+model = joblib.load('credit_model.lb')
 
 history = []
 
